@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio - Giovanni Frozza da Cruz</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- favicon (opcional) -->
+  <link rel="icon" href="assets/img/favicon.png" />
+</head>
+<body>
+
+  <!-- Header / Nav -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <button id="nav-toggle" aria-label="Abrir menu" class="nav-toggle">
+        <span class="hamburger"></span>
+      </button>
+      <a class="logo" href="#home">JG</a>
+      <nav class="nav" id="nav">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#qualificacoes" class="nav-link">Qualificações</a>
+        <a href="#contato" class="nav-link btn-outline">Entre em contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO / HOME -->
+  <section id="home" class="hero" style="background-image: url('assets/img/hero.jpg')">
+    <div class="hero-overlay"></div>
+    <div class="container hero-inner">
+      <p class="eyebrow">PORTFOLIO</p>
+      <h1 class="hero-title">Giovanni Frozza da Cruz</h1>
+      <p class="hero-sub">Full-Stack Developer | UI/UX Designer</p>
+
+      <div class="hero-cta">
+        <a href="#sobre" class="btn btn-primary">saiba mais</a>
+        <a href="assets/files/sample-cv.pdf" class="btn btn-secondary" download>download cv</a>
+      </div>
+
+      <div class="socials">
+        <!-- simple icons (replace links) -->
+        <a href="#" aria-label="GitHub" class="social">GH</a>
+        <a href="#" aria-label="Behance" class="social">Bē</a>
+        <a href="#" aria-label="Pinterest" class="social">P</a>
+        <a href="#" aria-label="LinkedIn" class="social">in</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE / ABOUT -->
+  <section id="sobre" class="section about">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">SOBRE</p>
+        <h2>Vou contar um pouco sobre meu trabalho...</h2>
+        <p class="lead">Formado na área de desenvolvimento com experiência em aplicações web, mobile e design.</p>
+      </div>
+
+      <div class="about-grid">
+        <!-- left: profile -->
+        <div class="profile">
+          <img src="assets/img/about.jpg" alt="Foto de perfil" class="profile-pic" />
+          <p class="profile-desc">
+            Eu amo programação, gosto de resolver problemas e tomar bastante café durante os projetos.
+          </p>
+
+          <ul class="profile-list">
+            <li><strong>Nome:</strong> Giovanni Frozza da Cruz</li>
+            <li><strong>Nascimento:</strong> 13 de Janeiro de 1997</li>
+            <li><strong>Cargo:</strong> Freelancer, Full-Stack Developer</li>
+            <li><strong>Website:</strong> jgexample.com</li>
+            <li><strong>Email:</strong> exemplo@dominio.com</li>
+          </ul>
+        </div>
+
+        <!-- right: skills -->
+        <div class="skills">
+          <h3>Skills</h3>
+          <p class="skills-lead">Minhas especialidades</p>
+
+          <div class="skill">
+            <div class="skill-head">
+              <span>Front-end</span>
+              <span class="skill-percent">94%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" style="width:94%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-head">
+              <span>Back-end</span>
+              <span class="skill-percent">85%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-head">
+              <span>Web</span>
+              <span class="skill-percent">93%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" style="width:93%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-head">
+              <span>Mobile</span>
+              <span class="skill-percent">90%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+          </div>
+
+          <div class="about-cta">
+            <a href="#contato" class="btn-outline">Entre em contato</a>
+            <a href="assets/files/sample-cv.pdf" class="btn btn-primary" download>Download CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUALIFICAÇÕES / RESUME -->
+  <section id="qualificacoes" class="section resume">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">RESUMO</p>
+        <h2>Minhas qualificações</h2>
+        <p class="lead">Um pouco sobre minha trajetória no mundo da programação</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-side">Developer<br><span class="muted">2015 — Presente</span></div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-body">
+            <h4>Freelancer</h4>
+            <p>Atuo como desenvolvedor freelance em projetos web e mobile: levantamento de requisitos, prototipação, implementação e testes.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-side">UNICSUL<br><span class="muted">Ago 2018 — Abr 2021</span></div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-body">
+            <h4>CST Análise e Desenvolvimento de Sistemas</h4>
+            <p>Formação focada em programação, bancos de dados e metodologias ágeis.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-side">SENAI<br><span class="muted">Jul 2015 — Jun 2017</span></div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-body">
+            <h4>Técnico de Informática</h4>
+            <p>Estudo de linguagens (C, Java, Python), desenvolvimento web (HTML/CSS/JS) e fundamentos de redes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT (simple anchor target) -->
+  <section id="contato" class="section contact">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">CONTATO</p>
+        <h2>Vamos conversar?</h2>
+        <p class="lead">Mande um e-mail ou use as redes sociais — textos e links genéricos abaixo</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h4>Email</h4>
+          <p><a href="mailto:exemplo@dominio.com">exemplo@dominio.com</a></p>
+        </div>
+        <div class="contact-card">
+          <h4>Telefone</h4>
+          <p>+55 (11) 99999-9999</p>
+        </div>
+        <div class="contact-card">
+          <h4>Social</h4>
+          <p>
+            <a href="#">GitHub</a> •
+            <a href="#">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- back to top -->
+  <button id="backTop" class="back-top" title="Topo">↑</button>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> José Guilherme — Portfólio (modelo)</p>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
